@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assests/img/restaurant_icon.png" type="image/x-icon" />
+    <title>Restaurant Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assests/css/grid.css">
+    <link rel="stylesheet" href="./assests/css/base.css">
+    <link rel="stylesheet" href="./assests/css/main.css">
+    <link rel="stylesheet" href="./assests/css/responsive.css">
+    <link rel="stylesheet" href="./assests/fonts/fontawesome-free-5.15.4/fontawesome-free-5.15.4-web/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="wrap">
+
+        <!-- Header -->
+        <div class="header">
+            <div class="grid wide">
+                <div class="header__wrap">
+                    <div class="header__logo">
+                        <a href="" class="header__logo-link">
+                            <img src="./assests/img/logo.png" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <ul class="header__navbar">
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-link">Home</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-link">About</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-link">Foods</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__search">
+                <div class="grid">
+                    <div class="header__background">
+                    </div>
+                    <div class="header__search-form">
+                        <div class="header__search-wrap">
+                            <input type="text" placeholder="Search for Food..." class="header__search-input" >
+                        </div>
+                        <div class="btn">
+                            <button class="search-btn">Search</button>
+                        </div>
+                    </div>
+                        
+                    <!-- Header search history -->
+                    <div class="header__search-history">
+                        <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                        <ul class="header__search-history-list">
+                            <li class="header__search-history-item">
+                                <a href="">Bánh Pizza</a>
+                            </li>
+                            <li class="header__search-history-item">
+                                <a href="">Bánh Burger</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+        <!-- Content -->
+        <div class="content">
+
+            <!-- Categories -->
+            <div class="categories">
+                <div class="content__title">
+                    <h1>Explore Foods</h1>
+                </div>
+                <div class="content">
+                    <div class="grid wide">
+                        <div class="row sm-gutter">
+                            <div class="col l-4 m-6 c-12">
+                                <div class="food__wrap">
+                                    <a href="" class="food-list">
+                                        <img src="./assests/img/pizza.jpg" alt="" class="food-item">
+                                    </a>
+                                    <div class="food-name">
+                                        <h1>Pizza</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12">
+                                <div class="food__wrap">
+                                    <a href="" class="food-list">
+                                        <img src="./assests/img/burger.jpg" alt="" class="food-item">
+                                    </a>
+                                    <div class="food-name">
+                                        <h1>Burger</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6 c-12">
+                                <div class="food__wrap">
+                                    <a href="" class="food-list">
+                                        <img src="./assests/img/momo.jpg" alt="" class="food-item">
+                                    </a>
+                                    <div class="food-name">
+                                        <h1>Momo</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Food Menu -->
+            <div class="food__menu">
+                <div class="food__menu-wrap">
+                    <div class="food__menu-heading">
+                        <h1>Food Menu</h1>
+                    </div>
+                    <div class="food__menu-wrap">
+                        <div class="grid ">
+                            <div class="row">
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="food__list">
+                                        <div class="food__list-img">
+                                            <img src="./assests/img/menu-pizza.jpg" alt="" class="food__list-img">
+                                        </div>
+                                        <div class="food__list-description">
+                                            <h1 class="pad">Food Title</h1>
+                                            <h2 class="pad">$2.3</h2>
+                                            <p class="pad food-text">Made with Italian Sauce, Chicken, and organice vegetables</p>
+                                            <button class="food__list-buy-btn">Order Now</button>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="food__list">
+                                        <div class="food__list-img">
+                                            <img src="./assests/img/menu-pizza.jpg" alt="" class="food__list-img">
+                                        </div>
+                                        <div class="food__list-description">
+                                            <h1 class="pad">Food Title</h1>
+                                            <h2 class="pad">$2.3</h2>
+                                            <p class="pad food-text">Made with Italian Sauce, Chicken, and organice vegetables</p>
+                                            <button class="food__list-buy-btn">Order Now</button>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="food__list">
+                                        <div class="food__list-img">
+                                            <img src="./assests/img/menu-pizza.jpg" alt="" class="food__list-img">
+                                        </div>
+                                        <div class="food__list-description">
+                                            <h1 class="pad">Food Title</h1>
+                                            <h2 class="pad">$2.3</h2>
+                                            <p class="pad food-text">Made with Italian Sauce, Chicken, and organice vegetables</p>
+                                            <button class="food__list-buy-btn">Order Now</button>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="food__list">
+                                        <div class="food__list-img">
+                                            <img src="./assests/img/menu-pizza.jpg" alt="" class="food__list-img">
+                                        </div>
+                                        <div class="food__list-description">
+                                            <h1 class="pad">Food Title</h1>
+                                            <h2 class="pad">$2.3</h2>
+                                            <p class="pad food-text">Made with Italian Sauce, Chicken, and organice vegetables</p>
+                                            <button class="food__list-buy-btn">Order Now</button>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="food__list">
+                                        <div class="food__list-img">
+                                            <img src="./assests/img/menu-pizza.jpg" alt="" class="food__list-img">
+                                        </div>
+                                        <div class="food__list-description">
+                                            <h1 class="pad">Food Title</h1>
+                                            <h2 class="pad">$2.3</h2>
+                                            <p class="pad food-text">Made with Italian Sauce, Chicken, and organice vegetables</p>
+                                            <button class="food__list-buy-btn">Order Now</button>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="food__list">
+                                        <div class="food__list-img">
+                                            <img src="./assests/img/menu-pizza.jpg" alt="" class="food__list-img">
+                                        </div>
+                                        <div class="food__list-description">
+                                            <h1 class="pad">Food Title</h1>
+                                            <h2 class="pad">$2.3</h2>
+                                            <p class="pad food-text">Made with Italian Sauce, Chicken, and organice vegetables</p>
+                                            <button class="food__list-buy-btn">Order Now</button>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food__menu-see-more">
+                        <a href="" class="food__menu-see-more--link">See All Food</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="socials">
+                <a href="" class="socials__link">
+                    <i class="socials__link-icon--facebook fab fa-facebook"></i>
+                </a>
+                <a href="" class="socials__link">
+                    <i class="socials__link-icon--instagram fab fa-instagram"></i>
+                </a>
+                <a href="" class="socials__link">
+                    <i class="socials__link-icon--twitter fab fa-twitter"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                <p>All rights reserved. Designed By
+                    <a href="" class="copyright-text">Dung Bui</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal layout  -->
+    <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body">
+            <div class="modal__content">
+                    <div class="modal__content-close">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="modal__content-food">
+                        <img src="./assests/img/food1.jpg" alt="" class="modal__content-food-img">
+                    </div>
+                    <h2 class="modal__content-food-name">
+                        Veg Muffin -
+                        <span class="modal__content-food-price">
+                            $16
+                        </span>
+                    </h2>
+                    <div class="btn-wrap">
+                        <button class="modal__content-buy-btn">
+                            <a href="" class="modal__content-buy-btn--link">
+                                Order Now
+                                <i class="fas fa-caret-right"></i>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
